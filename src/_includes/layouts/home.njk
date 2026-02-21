@@ -2,6 +2,18 @@
 layout: layouts/base.njk
 ---
 
+{% from "components/grid.njk" import itemGrid %}
+
+{% set imageMap = {
+  "Louis Zukofsky": 1,
+  "Lorine Niedecker": 4,
+  "George Oppen": 3,
+  "William Carlos Williams": 5,
+  "Basil Bunting": 7,
+  "Carl Rakosi": 6,
+  "Charles Reznikoff": 2
+} %}
+
 <article>
   <section class="entry-content poets full">
     <div class="green section_head">
@@ -16,112 +28,34 @@ layout: layouts/base.njk
     <p><a href="/pages/the-lives/" class="read-more">Read more …</a></p>
     </div>
 
+    {% set poets = [
+      {title: "Louis Zukofsky", url: "/people/louis-zukofsky/", birth: 1904, death: 1978, img: 1, writing: "/writing/zukofskys-writing/", scholarship: "/scholarship/zukofsky-scholarship/", materials: "/materials/zukofsky-materials/"},
+      {title: "Lorine Niedecker", url: "/people/lorine-niedecker/", birth: 1903, death: 1970, img: 4, writing: "/writing/niedeckers-writing/", scholarship: "/scholarship/niedecker-scholarship/", materials: "/materials/niedecker-materials/"},
+      {title: "George Oppen", url: "/people/george-oppen/", birth: 1908, death: 1984, img: 3, writing: "/writing/oppens-writing/", scholarship: "/scholarship/oppen-scholarship/", materials: "/materials/oppen-materials/"},
+      {title: "William Carlos Williams", url: "/people/william-carlos-williams/", birth: 1883, death: 1963, img: 5, writing: "/writing/williams-writing/", scholarship: "/scholarship/williams-scholarship/", materials: "/materials/williams-materials/"},
+      {title: "Basil Bunting", url: "/people/basil-bunting/", birth: 1900, death: 1985, img: 7, writing: "/writing/buntings-writing/", scholarship: "/scholarship/bunting-scholarship/", materials: "/materials/bunting-materials/"},
+      {title: "Carl Rakosi", url: "/people/carl-rakosi/", birth: 1903, death: 2004, img: 6, writing: "/writing/rakosis-writing/", scholarship: "/scholarship/rakosi-scholarship/", materials: "/materials/rakosi-materials/"},
+      {title: "Charles Reznikoff", url: "/people/charles-reznikoff/", birth: 1894, death: 1976, img: 2, writing: "/writing/reznikoffs-writing/", scholarship: "/scholarship/reznikoff-scholarship/", materials: "/materials/reznikoff-materials/"}
+    ] %}
+
     <ul class="ch-grid author">
+      {% for poet in poets %}
       <li>
-        <div class="ch-item ch-img-1">
+        <div class="ch-item ch-img-{{ poet.img }}">
           <div class="ch-info-wrap">
             <div class="ch-info">
-              <div class="ch-info-front ch-img-1"></div>
+              <div class="ch-info-front ch-img-{{ poet.img }}"></div>
               <div class="ch-info-back">
-                <a href="/people/louis-zukofsky/">
-                  <span class="author">Louis<br/>Zukofsky</span>
-                  <span class="subtitle">1904 – 1978</span>
+                <a href="{{ poet.url }}">
+                  <span class="author">{{ poet.title }}</span>
+                  <span class="subtitle">{{ poet.birth }} – {{ poet.death }}</span>
                 </a>
               </div>
             </div>
           </div>
         </div>
       </li>
-      <li>
-        <div class="ch-item ch-img-4">
-          <div class="ch-info-wrap">
-            <div class="ch-info">
-              <div class="ch-info-front ch-img-4"></div>
-              <div class="ch-info-back">
-                <a href="/people/lorine-niedecker/">
-                  <span class="author">Lorine<br/>Niedecker</span>
-                  <span class="subtitle">1903 – 1970</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="ch-item ch-img-3">
-          <div class="ch-info-wrap">
-            <div class="ch-info">
-              <div class="ch-info-front ch-img-3"></div>
-              <div class="ch-info-back">
-                <a href="/people/george-oppen/">
-                  <span class="author">George<br/>Oppen</span>
-                  <span class="subtitle">1908 – 1984</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="ch-item ch-img-5">
-          <div class="ch-info-wrap">
-            <div class="ch-info">
-              <div class="ch-info-front ch-img-5"></div>
-              <div class="ch-info-back">
-                <a href="/people/william-carlos-williams/">
-                  <span class="author">William<br/>Carlos<br/>Williams</span>
-                  <span class="subtitle">1883 – 1963</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="ch-item ch-img-7">
-          <div class="ch-info-wrap">
-            <div class="ch-info">
-              <div class="ch-info-front ch-img-7"></div>
-              <div class="ch-info-back">
-                <a href="/people/basil-bunting/">
-                  <span class="author">Basil<br/>Bunting</span>
-                  <span class="subtitle">1900 – 1985</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="ch-item ch-img-6">
-          <div class="ch-info-wrap">
-            <div class="ch-info">
-              <div class="ch-info-front ch-img-6"></div>
-              <div class="ch-info-back">
-                <a href="/people/carl-rakosi/">
-                  <span class="author">Carl<br/>Rakosi</span>
-                  <span class="subtitle">1903 – 2004</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="ch-item ch-img-2">
-          <div class="ch-info-wrap">
-            <div class="ch-info">
-              <div class="ch-info-front"></div>
-              <div class="ch-info-back">
-                <a href="/people/charles-reznikoff/">
-                  <span class="author">Charles<br/>Reznikoff</span>
-                  <span class="subtitle">1894 – 1976</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </li>
+      {% endfor %}
     </ul>
     <div class="clear"></div>
   </section>
@@ -138,6 +72,27 @@ layout: layouts/base.njk
 
     <p><a href="/pages/the-work/" class="read-more">Read more …</a></p>
     </div>
+
+    <ul class="ch-grid poetry">
+      {% for poet in poets %}
+      <li>
+        <div class="ch-item ch-img-{{ poet.img }}">
+          <div class="ch-info-wrap">
+            <div class="ch-info">
+              <div class="ch-info-front ch-img-{{ poet.img }}"></div>
+              <div class="ch-info-back">
+                <a href="{{ poet.writing }}">
+                  <span class="author">{{ poet.title }}</span>
+                  <span class="subtitle">{{ poet.birth }} – {{ poet.death }}</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="clear"></div>
   </section>
 
   <section class="entry-content scholarship full">
@@ -150,6 +105,27 @@ layout: layouts/base.njk
 
     <p><a href="/pages/the-scholarship/" class="read-more">Read more…</a></p>
     </div>
+
+    <ul class="ch-grid scholarship">
+      {% for poet in poets %}
+      <li>
+        <div class="ch-item ch-img-{{ poet.img }}">
+          <div class="ch-info-wrap">
+            <div class="ch-info">
+              <div class="ch-info-front ch-img-{{ poet.img }}"></div>
+              <div class="ch-info-back">
+                <a href="{{ poet.scholarship }}">
+                  <span class="author">{{ poet.title }}</span>
+                  <span class="subtitle">{{ poet.birth }} – {{ poet.death }}</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="clear"></div>
   </section>
 
   <section class="entry-content materials full">
@@ -162,5 +138,26 @@ layout: layouts/base.njk
 
     <p><a href="/pages/the-materials/" class="read-more">Read more …</a></p>
     </div>
+
+    <ul class="ch-grid materials">
+      {% for poet in poets %}
+      <li>
+        <div class="ch-item ch-img-{{ poet.img }}">
+          <div class="ch-info-wrap">
+            <div class="ch-info">
+              <div class="ch-info-front ch-img-{{ poet.img }}"></div>
+              <div class="ch-info-back">
+                <a href="{{ poet.materials }}">
+                  <span class="author">{{ poet.title }}</span>
+                  <span class="subtitle">{{ poet.birth }} – {{ poet.death }}</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="clear"></div>
   </section>
 </article>

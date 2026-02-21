@@ -1,0 +1,22 @@
+{% macro itemGrid(collection, gridClass, linkProperty, imageMap) %}
+<ul class="ch-grid {{ gridClass }}">
+  {% for item in collection %}
+    <li>
+      <div class="ch-item {% if imageMap and imageMap[item.data.title] %}ch-img-{{ imageMap[item.data.title] }}{% endif %}">
+        <div class="ch-info-wrap">
+          <div class="ch-info">
+            <div class="ch-info-front {% if imageMap and imageMap[item.data.title] %}ch-img-{{ imageMap[item.data.title] }}{% endif %}"></div>
+            <div class="ch-info-back">
+              <a href="{{ item.data[linkProperty] }}">
+                <span class="author">{{ item.data.title }}</span>
+                <span class="subtitle">{{ item.data.birth_year }} – {{ item.data.death_year }}</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+<div class="clear"></div>
+{% endmacro %}
