@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+---
+
+<article>
+  <h1 class="entry-title">{{ title }}</h1>
+
+  <div class="entry-content">
+    {{ content | safe }}
+  </div>
+
+  {% if collections.materials %}
+  <aside class="materials-list">
+    <h2>Other Materials</h2>
+    <ul>
+    {% for item in collections.materials %}
+      {% if item.url != page.url %}
+      <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </aside>
+  {% endif %}
+</article>

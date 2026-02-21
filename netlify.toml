@@ -1,0 +1,33 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/the-lives/*"
+  to = "/pages/the-lives/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/the-materials/*"
+  to = "/pages/the-materials/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/the-work/*"
+  to = "/pages/the-work/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/the-scholarship/*"
+  to = "/pages/the-scholarship/:splat"
+  status = 301
+
+# Catch-all for any WordPress URLs
+[[redirects]]
+  from = "/*"
+  to = "/pages/:splat"
+  status = 200
+  force = false

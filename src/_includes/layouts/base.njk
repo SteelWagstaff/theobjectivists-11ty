@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | The Objectivists</title>
+  <meta name="description" content="{{ description or 'A digital humanities project documenting the lives, work, and materials of the Objectivist poets.' }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="home page">
+  <div class="nav-bar-top">
+    <h1 class="site-title"><a href="/" rel="home">The "Objectivists"</a></h1>
+    <h2 class="site-description">A Website Dedicated to the "Objectivist" Poets</h2>
+    <nav id="nav">
+      <ul class="menu">
+        <li class="poets menu-item"><a href="/pages/the-lives/">The Lives</a></li>
+        <li class="poetry menu-item"><a href="/pages/the-work/">The Work</a></li>
+        <li class="scholarship menu-item"><a href="/pages/the-scholarship/">The Scholarship</a></li>
+        <li class="materials menu-item"><a href="/pages/the-materials/">The Materials</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="container">
+    <div class="full">
+      <div class="main">
+        {% block content %}
+        {{ content | safe }}
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 The Objectivists Project | <a href="/pages/colophon/">Colophon</a></p>
+  </footer>
+</body>
+</html>

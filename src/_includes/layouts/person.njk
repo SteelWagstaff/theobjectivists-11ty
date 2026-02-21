@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+---
+
+<article>
+  <h1 class="entry-title">
+    {{ title }}
+    {% if birth_year and death_year %}
+    <span class="person-dates">{{ birth_year }} – {{ death_year }}</span>
+    {% endif %}
+  </h1>
+
+  <div class="entry-content">
+    {{ content | safe }}
+  </div>
+
+  <aside class="person-sidebar">
+    <nav class="person-nav">
+      <h2>Explore {{ title.split(' ')[0] }}'s Work</h2>
+      <ul>
+        {% if materials_link %}
+        <li><a href="{{ materials_link }}">Materials</a></li>
+        {% endif %}
+        {% if scholarship_link %}
+        <li><a href="{{ scholarship_link }}">Scholarship</a></li>
+        {% endif %}
+        {% if writing_link %}
+        <li><a href="{{ writing_link }}">Writing</a></li>
+        {% endif %}
+      </ul>
+    </nav>
+  </aside>
+</article>
