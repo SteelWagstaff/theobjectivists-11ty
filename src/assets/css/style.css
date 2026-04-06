@@ -28,10 +28,23 @@ body{
 	-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 	font-family: "calluna", "ff-meta-serif-web-pro", "ff-tisa-web-pro", serif;
-	background: #f9f9f9 url(../images/bg.jpg);
+	background: #f9f9f9 url(../images/bg.jpg) repeat;
 	color: #333;
 	overflow-y: scroll;
 	overflow-x: hidden;
+}
+
+/* Homepage section headings */
+.home .entry-content .section_head h2 {
+	color: #fff;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	border-bottom: none;
+}
+
+.home .entry-content .section_head h3 {
+	color: #fff;
+	font-weight: 400;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 
 body p, body li {
@@ -120,31 +133,31 @@ a:hover {
 	width: 30%;
 }
 */ 
-.parent-pageid-26 blockquote, .page-id-26 blockquote {
+.page-lives blockquote {
 	border-color: #588c73;
 }
-.parent-pageid-26 blockquote:before, .page-id-26 blockquote:before {
+.page-lives blockquote:before {
 	color: #588c73;
 }
 
-.parent-pageid-27 blockquote, .page-id-27 blockquote {
+.page-work blockquote {
 	border-color: #53626D;
 }
-.parent-pageid-27 blockquote:before, .page-id-27 blockquote:before {
+.page-work blockquote:before {
 	color: #53626D;
 }
 
-.parent-pageid-28 blockquote, .page-id-28 blockquote {
+.page-scholarship blockquote {
 	border-color: #d96459;
 }
-.parent-pageid-28 blockquote:before, .page-id-28 blockquote:before {
+.page-scholarship blockquote:before {
 	color: #d96459;
 }
 
-.parent-pageid-29 blockquote, .page-id-29 blockquote {
+.page-materials blockquote {
 	border-color: #8c4646;
 }
-.parent-pageid-29 blockquote:before, .page-id-29 blockquote:before {
+.page-materials blockquote:before {
 	color: #8c4646;
 }
 
@@ -197,7 +210,7 @@ blockquote p:first-child {
 
 /* Header */
 
-header#header {
+.nav-bar-top {
 	position: relative;
 	top: 0;
 	left: 0;
@@ -235,6 +248,7 @@ header#header {
 	padding-top: 10px;
 	margin: 10px 0;
 	display: inline-block;
+	color: white;
 }
 
 /* Header Menu */
@@ -358,11 +372,11 @@ h1.entry-title {
 	background: #555;
 }
 
-.parent-pageid-26 .entry-content h2, .parent-pageid-26 .entry-content h3, .parent-pageid-26 .entry-content h4, .parent-pageid-26 .entry-content h5, .parent-pageid-26 .entry-content h6, .page-id-26 .entry-content h2, .page-id-26 .entry-content h3, .page-id-26 .entry-content h4, .page-id-26 .entry-content h5, .page-id-26 .entry-content h6  {
+.page-lives .entry-content h2, .page-lives .entry-content h3, .page-lives .entry-content h4, .page-lives .entry-content h5, .page-lives .entry-content h6 {
 	color: #588c73;
 }
 
-.green, li.poets, .parent-pageid-26 h1.entry-title, .page-id-26 h1.entry-title {
+.green, li.poets, .page-lives h1.entry-title {
 	background: #588c73; /* #557B56;*/
 	background: linear-gradient(to bottom right, #588c73 0%, #46705c 100%);
 }
@@ -371,11 +385,11 @@ li.poets li, .poets .ch-info .ch-info-back {
 	background: #689781;
 }
 
-.parent-pageid-27 .entry-content h2, .parent-pageid-27 .entry-content h3, .parent-pageid-27 .entry-content h4, .parent-pageid-27 .entry-content h5, .parent-pageid-27 .entry-content h6, .page-id-27 .entry-content h2, .page-id-27 .entry-content h3, .page-id-27 .entry-content h4, .page-id-27 .entry-content h5, .page-id-27 .entry-content h6 {
+.page-work .entry-content h2, .page-work .entry-content h3, .page-work .entry-content h4, .page-work .entry-content h5, .page-work .entry-content h6 {
 	color: #536270;
 }
 
-.blue, li.poetry, .parent-pageid-27 h1.entry-title, .page-id-27 h1.entry-title {
+.blue, li.poetry, .page-work h1.entry-title {
 	background: #536270; /* #0071BC; #0D1116; #244345; #369; */
 	background: linear-gradient(to bottom right, #536270 0%, #424e59 100%);
 }
@@ -384,11 +398,11 @@ li.poetry li, .poetry .ch-info .ch-info-back {
 	background: #64717e;
 	}
 
-.parent-pageid-28 .entry-content h2, .parent-pageid-28 .entry-content h3, .parent-pageid-28 .entry-content h4, .parent-pageid-28 .entry-content h5, .parent-pageid-28 .entry-content h6, .page-id-28 .entry-content h2, .page-id-28 .entry-content h3, .page-id-28 .entry-content h4, .page-id-28 .entry-content h5, .page-id-28 .entry-content h6 {
+.page-scholarship .entry-content h2, .page-scholarship .entry-content h3, .page-scholarship .entry-content h4, .page-scholarship .entry-content h5, .page-scholarship .entry-content h6 {
 	color: #d96459;
 }
 
-.red, li.scholarship, .parent-pageid-28 h1.entry-title, .page-id-28 h1.entry-title {
+.red, li.scholarship, .page-scholarship h1.entry-title {
 	background: #d96459; /* #c33; #b81b1d; #d6363a; #431D14; */
 	background: linear-gradient(to bottom right, #d96459 0%, #ad5047 100%); 
 
@@ -398,11 +412,11 @@ li.scholarship li, .scholarship .ch-info .ch-info-back {
 	background: #dc7369;
 }
 
-.parent-pageid-29 .entry-content h2, .parent-pageid-29 .entry-content h3, .parent-pageid-29 .entry-content h4, .parent-pageid-29 .entry-content h5, .parent-pageid-29 .entry-content h6, .page-id-29 .entry-content h2, .page-id-29 .entry-content h3, .page-id-29 .entry-content h4, .page-id-29 .entry-content h5, .page-id-29 .entry-content h6 {
+.page-materials .entry-content h2, .page-materials .entry-content h3, .page-materials .entry-content h4, .page-materials .entry-content h5, .page-materials .entry-content h6 {
 	color: #8c4646;
 }
 
-.darkred, li.material, .parent-pageid-29 h1.entry-title, .page-id-29 h1.entry-title {
+.darkred, li.material, .page-materials h1.entry-title {
 	background: #8c4646;
 	background:	linear-gradient(to bottom right, #8c4646 0%, #703838 100%);
 }
@@ -428,7 +442,9 @@ body.home header.header {
 }
 
 .section_head {
-	width: 100%;
+	width: auto;
+	margin-left: -3rem;
+	margin-right: -3rem;
 	margin-bottom: 2rem;
 	box-shadow: 0 2px 5px #999, 0 -2px 5px #999;
 	text-align: center;
@@ -446,12 +462,11 @@ body.home header.header {
 
 
 .section_head h3 {
-	border-top: 2px solid #999;
 	display: inline-block;
 	width: auto;
 	margin: 0 auto;
 	font-weight: 300;
-	padding: 1rem 0;
+	padding: 0.5rem 0 1rem 0;
 	font-size: .85rem;
 }
 
@@ -483,6 +498,10 @@ ul.ch-grid {
 }
 
 .ch-grid:after {
+	clear: both;
+}
+
+.clear {
 	clear: both;
 }
 
@@ -594,7 +613,7 @@ ul.ch-grid {
 }
 
 .ch-info .author {
-	/* color: #fff;*/
+	color: #fff;
 	display: block;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -609,7 +628,7 @@ ul.ch-grid {
 }
 
 .ch-info .subtitle {
-	/* color: #fff; */
+	color: #fff;
 	display: block;
 	padding: 5% 0; /* percentages */
 	font-style: italic;
@@ -656,130 +675,114 @@ ul.ch-grid {
 	border-radius: 5%; /* percentage */
 }
 
+.ch-img-1,
+.ch-img-2,
+.ch-img-3,
+.ch-img-4,
+.ch-img-5,
+.ch-img-6,
+.ch-img-7 {
+	background-position: center center;
+	background-size: 104%;
+	background-repeat: no-repeat;
+	background-color: #aaa;
+}
+
 .ch-img-1 { 
-	background: #aaa 0/100% url('../images/Zuk_sq.jpg');
+	background-image: url('../images/Zuk_sq.jpg') !important;
 }
 
 .ch-img-2 { 
-	background: #aaa 0/100% url('../images/Rezi_sq.jpg');
+	background-image: url('../images/Rezi_sq.jpg') !important;
 }
 
 .ch-img-3 { 
-	background: #aaa 0/100% url('../images/Opp_sq.jpg')
+	background-image: url('../images/Opp_sq.jpg') !important;
 }
 
 .ch-img-4 {
-background: #aaa 0/100% url('../images/Nie_sq.jpg')
+	background-image: url('../images/Nie_sq.jpg') !important;
 }
 
 .ch-img-5 {
-background: #aaa 0/100% url('../images/WCW_sq.jpg')
+	background-image: url('../images/WCW_sq.jpg') !important;
 }
 
 .ch-img-6 {
-background: #aaa 0/100% url('../images/rakosi.jpg')
+	background-image: url('../images/rakosi.jpg') !important;
 }
 
 .ch-img-7 {
-background: #aaa 0/100% url('../images/Bun_sq.jpg')
+	background-image: url('../images/Bun_sq.jpg') !important;
 }
 
 
-.bk-img-1 { 
-	background: #aaa 0/100% url('../images/Zuk_bk.jpg');
-}
-
-.bk-img-2 { 
-	background: #aaa 0/100% url('../images/Reznikoff_poems1.jpg');
-}
-
-.bk-img-3 { 
-	background: #aaa 0/100% url('../images/Oppen_New_Collected1.jpg')
-}
-
-.bk-img-4 {
-background: #aaa 0/100% url('../images/Niedecker_Collected_Works1.jpg')
-}
-
-.bk-img-5 {
-background: #aaa 0/100% url('../images/Williams_Collected_Poems_Vol11.jpg')
-}
-
-.bk-img-6 {
-background: #aaa 0/100% url('../images/rakosi_selected_poems.jpg')
-}
-
-.bk-img-7 {
-background: #aaa 0/100% url('../images/bunting_complete_bloodaxe.jpg')
-}
-
+.bk-img-1,
+.bk-img-2,
+.bk-img-3,
+.bk-img-4,
+.bk-img-5,
+.bk-img-6,
+.bk-img-7,
 .bk-img-8 {
-background: #aaa 0/100% url('../images/feb_1931.jpg')
+	background-position: center center;
+	background-size: 104%;
+	background-repeat: no-repeat;
+	background-color: #aaa;
 }
 
-.sc-img-1 { 
-	background: #aaa 0/100% url('../images/Zuk_sc.jpg');
-}
+.bk-img-1 { background-image: url('../images/Zuk_bk.jpg') !important; }
+.bk-img-2 { background-image: url('../images/Reznikoff_poems1.jpg') !important; }
+.bk-img-3 { background-image: url('../images/Oppen_New_Collected1.jpg') !important; }
+.bk-img-4 { background-image: url('../images/Niedecker_Collected_Works1.jpg') !important; }
+.bk-img-5 { background-image: url('../images/Williams_Collected_Poems_Vol11.jpg') !important; }
+.bk-img-6 { background-image: url('../images/rakosi_selected_poems.jpg') !important; }
+.bk-img-7 { background-image: url('../images/bunting_complete_bloodaxe.jpg') !important; }
+.bk-img-8 { background-image: url('../images/feb_1931.jpg') !important; }
 
-.sc-img-2 { 
-	background: #aaa 0/100% url('../images/Rezi_sc.jpg');
-}
-
-.sc-img-3 { 
-	background: #aaa 0/100% url('../images/Opp_sc.jpg')
-}
-
-.sc-img-4 {
-background: #aaa 0/100% url('../images/Nie_sc.jpg')
-}
-
-.sc-img-5 {
-background: #aaa 0/100% url('../images/WCW_sc.jpg')
-}
-
-.sc-img-6 {
-background: #aaa 0/100% url('../images/rakosi_sc.jpg')
-}
-
-.sc-img-7 {
-background: #aaa 0/100% url('../images/Bun_sc.jpg')
-}
-
+.sc-img-1,
+.sc-img-2,
+.sc-img-3,
+.sc-img-4,
+.sc-img-5,
+.sc-img-6,
+.sc-img-7,
 .sc-img-8 {
-background: #aaa 0/100% url('../images/Obj_sc.jpg')
+	background-position: center center;
+	background-size: 104%;
+	background-repeat: no-repeat;
+	background-color: #aaa;
 }
 
-.ma-img-1 { 
-	background: #aaa 0/100% url('../images/Zuk_ma.jpg');
-}
+.sc-img-1 { background-image: url('../images/Zuk_sc.jpg') !important; }
+.sc-img-2 { background-image: url('../images/Rezi_sc.jpg') !important; }
+.sc-img-3 { background-image: url('../images/Opp_sc.jpg') !important; }
+.sc-img-4 { background-image: url('../images/Nie_sc.jpg') !important; }
+.sc-img-5 { background-image: url('../images/WCW_sc.jpg') !important; }
+.sc-img-6 { background-image: url('../images/Rak_sc.jpg') !important; }
+.sc-img-7 { background-image: url('../images/Bun_sc.jpg') !important; }
+.sc-img-8 { background-image: url('../images/Obj_sc.jpg') !important; }
 
-.ma-img-2 { 
-	background: #aaa 0/100% url('../images/Rezi_ma.jpg');
-}
-
-.ma-img-3 { 
-	background: #aaa 0/100% url('../../uploads/sites/14/2014/11/oppen_selected_prose.jpg')
-}
-
-.ma-img-4 {
-background: #aaa 0/100% url('../images/Nie_ma.jpg')
-}
-
-.ma-img-5 {
-background: #aaa 0/100% url('../images/WCW_ma.jpg')
-}
-
-.ma-img-6 {
-background: #aaa 0/100% url('../images/Rak_ma.jpg')
-}
-
+.ma-img-1,
+.ma-img-2,
+.ma-img-3,
+.ma-img-4,
+.ma-img-5,
+.ma-img-6,
 .ma-img-7 {
-background: #aaa 0/100% url('../images/Bun_ma.jpg')
+	background-position: center center;
+	background-size: 104%;
+	background-repeat: no-repeat;
+	background-color: #aaa;
 }
 
-.ma-img-8 {
-background: #aaa 0/100% url('../images/Obj_ma.jpg')
-}
+.ma-img-1 { background-image: url('../images/Zuk_ma.jpg') !important; }
+.ma-img-2 { background-image: url('../images/Rezi_ma.jpg') !important; }
+.ma-img-3 { background-image: url('../images/oppen_selected_prose.jpg') !important; }
+.ma-img-4 { background-image: url('../images/Nie_ma.jpg') !important; }
+.ma-img-5 { background-image: url('../images/WCW_ma.jpg') !important; }
+.ma-img-6 { background-image: url('../images/Rak_ma.jpg') !important; }
+.ma-img-7 { background-image: url('../images/Bun_ma.jpg') !important; }
 
 .poets, .poetry, .scholarship, .materials {
   background: url('../images/.jpg') no-repeat center center fixed; 
@@ -903,7 +906,6 @@ div.alignright img {
 
 .entry-content {
 	width: 100%;
-	max-width: 1200px;
 	box-sizing: border-box;
 	padding: 0 3rem;
 	font-size: 1rem;
@@ -986,7 +988,7 @@ footer p {
 }
 
 @media all and (min-width: 490px) {
-	header#header {
+	.nav-bar-top {
 	text-align: left;
 	}
 	
@@ -1030,7 +1032,7 @@ footer p {
 	padding-bottom: 68.5%;
 	}
 	 
-	header#header, #nav li a, .text {
+	.nav-bar-top, #nav li a {
 	padding-left: 2rem;
 	}
 	
@@ -1070,7 +1072,7 @@ div.alignright img {
 	.text {
 	padding-right: 3rem;
 	}
-	header#header, #nav li a, .text {
+	.nav-bar-top, #nav li a {
 	padding-left: 3rem;
 	}
 	
@@ -1202,7 +1204,7 @@ div.alignright img {
 }
 
 @media all and (min-width: 920px) {
-	header#header {
+	.nav-bar-top {
 		position: fixed;
 	}
 	

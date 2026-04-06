@@ -5,9 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} | The Objectivists</title>
   <meta name="description" content="{{ description or 'A digital humanities project documenting the lives, work, and materials of the Objectivist poets.' }}">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet" type="text/css">
+  <script src="https://use.typekit.net/kxz8epr.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body class="home page">
+<body class="{{ bodyClass or 'home page' }}">
   <div class="nav-bar-top">
     <h1 class="site-title"><a href="/" rel="home">The "Objectivists"</a></h1>
     <h2 class="site-description">A Website Dedicated to the "Objectivist" Poets</h2>
@@ -31,8 +34,21 @@
     </div>
   </div>
 
-  <footer>
-    <p>&copy; 2026 The Objectivists Project | <a href="/pages/colophon/">Colophon</a></p>
+  <footer id="footer" role="contentinfo">
+    <div class="widget-container widget_search">
+      <form role="search" method="get" id="searchform" class="searchform" action="/">
+        <label class="screen-reader-text" for="s">Search for:</label>
+        <input type="text" value="" name="s" id="s">
+        <input type="submit" id="searchsubmit" value="Search">
+      </form>
+    </div>
+    
+    <div id="copyright">
+      <p><a href="/">The Objectivists</a> website designed and maintained by <a href="https://steelwagstaff.info/" target="_blank">Steel Wagstaff</a></p>
+      <p>All Louis Zukofsky materials copyright &copy; Musical Observations, Inc. Used by permission. All original material by Steel Wagstaff licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0 license</a></p>
+      <p><a href="/pages/colophon/">Colophon</a></p>
+    </div>
   </footer>
 </body>
 </html>
+

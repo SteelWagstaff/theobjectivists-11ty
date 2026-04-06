@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: "The Scholarship"
 date: 2014-11-04
 permalink: /pages/the-scholarship/
+bodyClass: "page-scholarship page-parent"
 ---
 
 No matter what Zukofsky's hopes for it may have been, the publication of the "Objectivists" issue of _Poetry_ magazine in February 1931 was met initially with a chilly reception. In a talk given at the Gotham book mart in 1931 published as the critical introduction to _The 'Objectivists' Anthology_, Zukofsky complained memorably: "The Objectivist number of _Poetry_ appeared in February. Since then there have been March, April, June and July and we are now in the middle of August. Don't write, telegraph."<sup id="fnref-1"><a href="#fn-1">[1]</a></sup> Apart from a deeply fruitful correspondence with Lorine Niedecker, who wrote to Zukofsky after reading the Objectivists issue of _Poetry_ in her local public library, the "Objectivist" salvo attracted few recruits and made little impact on the American literary world of the 1930s and 1940s. In fact, William Carlos Williams was moved to observe in his 1950 autobiography: "We had some small success, but few followers. ... Nothing much happened in the end" <sup id="fnref-2"><a href="#fn-2">[2]</a></sup>.

@@ -73,17 +73,17 @@ layout: layouts/base.njk
     <p><a href="/pages/the-work/" class="read-more">Read more …</a></p>
     </div>
 
-    <ul class="ch-grid poetry">
+    <ul class="ch-grid books">
       {% for poet in poets %}
       <li>
-        <div class="ch-item ch-img-{{ poet.img }}">
+        <div class="ch-item bk-img-{{ poet.img }}">
           <div class="ch-info-wrap">
             <div class="ch-info">
-              <div class="ch-info-front ch-img-{{ poet.img }}"></div>
+              <div class="ch-info-front bk-img-{{ poet.img }}"></div>
               <div class="ch-info-back">
                 <a href="{{ poet.writing }}">
                   <span class="author">{{ poet.title }}</span>
-                  <span class="subtitle">{{ poet.birth }} – {{ poet.death }}</span>
+                  <span class="subtitle">Poetry, prose & letters</span>
                 </a>
               </div>
             </div>
@@ -106,17 +106,17 @@ layout: layouts/base.njk
     <p><a href="/pages/the-scholarship/" class="read-more">Read more…</a></p>
     </div>
 
-    <ul class="ch-grid scholarship">
+    <ul class="ch-grid scholar">
       {% for poet in poets %}
       <li>
-        <div class="ch-item ch-img-{{ poet.img }}">
+        <div class="ch-item sc-img-{{ poet.img }}">
           <div class="ch-info-wrap">
             <div class="ch-info">
-              <div class="ch-info-front ch-img-{{ poet.img }}"></div>
+              <div class="ch-info-front sc-img-{{ poet.img }}"></div>
               <div class="ch-info-back">
                 <a href="{{ poet.scholarship }}">
                   <span class="author">{{ poet.title }}</span>
-                  <span class="subtitle">{{ poet.birth }} – {{ poet.death }}</span>
+                  <span class="subtitle">Biographies & other criticism</span>
                 </a>
               </div>
             </div>
@@ -142,14 +142,14 @@ layout: layouts/base.njk
     <ul class="ch-grid materials">
       {% for poet in poets %}
       <li>
-        <div class="ch-item ch-img-{{ poet.img }}">
+        <div class="ch-item ma-img-{{ poet.img }}">
           <div class="ch-info-wrap">
             <div class="ch-info">
-              <div class="ch-info-front ch-img-{{ poet.img }}"></div>
+              <div class="ch-info-front ma-img-{{ poet.img }}"></div>
               <div class="ch-info-back">
                 <a href="{{ poet.materials }}">
                   <span class="author">{{ poet.title }}</span>
-                  <span class="subtitle">{{ poet.birth }} – {{ poet.death }}</span>
+                  <span class="subtitle">Archival Materials & Multimedia</span>
                 </a>
               </div>
             </div>

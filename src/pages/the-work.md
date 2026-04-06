@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: "The Work"
 date: 2014-11-04
 permalink: /pages/the-work/
+bodyClass: "page-work page-parent"
 ---
 
 In addition to the cluster of friendships among the various "Objectivist" writers initiated in the mid- to late-1920s and cemented by regular correspondence, the core "Objectivists" were also connected by their longstanding mutual interest in one another's poetry. Through a series of little magazines, cooperative book publishing ventures, and other schemes, these writers spent considerable time and effort reading, publishing, and reviewing one another's work, with several members of the group sending each other their new publications for the rest of their lives, in some cases more than fifty years after their initial association.

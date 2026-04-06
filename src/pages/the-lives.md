@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: "The Lives"
 date: 2014-11-04
 permalink: /pages/the-lives/
+bodyClass: "page-lives page-parent"
 ---
 
 ## Who were the "Objectivists"?
