@@ -596,7 +596,7 @@ Rakosi died in San Francisco on June 25, 2004 after a series of strokes. At the
 
 <p id="fn-45">45. In March 1924, shortly before his and Rakosi's scheduled graduation, Fearing was forced to resign his position as the editor-in-chief of the magazine by disgruntled university administrators. The student newspaper _The Daily Cardinal_ reported that "it was held that the editorial policy of the magazine has been irritatingly satirical and intolerably misanthropic, sour and biting." <a href="#fnref-45">↩</a></p>
 
-<p id="fn-46">46. [_Wisconsin Alumnus_](http://digicoll.library.wisc.edu/cgi-bin/UW/UW-idx?type=article&id=UW.v68i6&did=UW.v68i6.CDuff&q1=Rakosi), 22. <a href="#fnref-46">↩</a></p>
+<p id="fn-46">46. <a href="http://digicoll.library.wisc.edu/cgi-bin/UW/UW-idx?type=article&id=UW.v68i6&did=UW.v68i6.CDuff&q1=Rakosi"><em>Wisconsin Alumnus</em></a>, 22. <a href="#fnref-46">↩</a></p>
 
 <p id="fn-47">47. _This is My Body_, 162-165. <a href="#fnref-47">↩</a></p>
 

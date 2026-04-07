@@ -34,7 +34,7 @@ Hundreds of letters exchanged between Lorine Niedecker and Louis Zukofsky are in
 
 #### **Finding Aid**
 
-The Zukofsky collection at the HRHRC has a very detailed and usable [online finding aid](http://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00138). More detailed descriptions of their holdings can be found in two print sources: Marcella Booth's [_A Catalogue of the Louis Zukofsky Manuscript Collection_](http://www.worldcat.org/oclc/1393501) (UT-Austin Press, 1975) and Cathy Henderson's "[Supplement to Marcella Booth's](https://hdl.handle.net/2027/inu.30000003241985?urlappend=%3Bseq=113) _A Catalogue of the Louis Zukofsky Manuscript Collection_", published in _The Library Chronicle_ in 1987.
+The Zukofsky collection at the HRHRC has a very detailed and usable [online finding aid](http://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00138). More detailed descriptions of their holdings can be found in two print sources: Marcella Booth's <a href="http://www.worldcat.org/oclc/1393501"><em>A Catalogue of the Louis Zukofsky Manuscript Collection</em></a> (UT-Austin Press, 1975) and Cathy Henderson's "[Supplement to Marcella Booth's](https://hdl.handle.net/2027/inu.30000003241985?urlappend=%3Bseq=113) _A Catalogue of the Louis Zukofsky Manuscript Collection_", published in _The Library Chronicle_ in 1987.
 
 ### The Cid Corman Papers at Indiana University
 

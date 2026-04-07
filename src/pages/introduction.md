@@ -170,7 +170,7 @@ Furthermore, as a believer in Linus' Law: "given enough eyeballs, all bugs are 
 
 <p id="fn-8">8. "Louis Zukofsky," _Contemporary Literature_ (Spring 1969), 203. <a href="#fnref-8">↩</a></p>
 
-<p id="fn-9">9. Rakosi told Kimberly Bird in 2002: "Niedecker, by the way, was not a part of it at this time. I think I was the one really who first called her an Objectivist, because I thought that she was the most Objectivist of us all, and she is" ([_A Century in the Poetic Eye_](http://digitalassets.lib.berkeley.edu/roho/ucb/text/RakosiBook.pdf#page=81), 71) <a href="#fnref-9">↩</a></p>
+<p id="fn-9">9. Rakosi told Kimberly Bird in 2002: "Niedecker, by the way, was not a part of it at this time. I think I was the one really who first called her an Objectivist, because I thought that she was the most Objectivist of us all, and she is" (<a href="http://digitalassets.lib.berkeley.edu/roho/ucb/text/RakosiBook.pdf#page=81"><em>A Century in the Poetic Eye</em></a>, 71) <a href="#fnref-9">↩</a></p>
 
 <p id="fn-10">10. "An Interview with Carl Rakosi," _Conjunctions_ 11 (1988), 221. It should be noted that Rakosi was not present in New York City in the late 1920s and early 1930s, and thus only had contact with Zukofsky via letters. Consequently, some of his recollections about the initial character of the group may be less accurate than those made by participants in the early meetings. <a href="#fnref-10">↩</a></p>
 
@@ -202,7 +202,7 @@ Furthermore, as a believer in Linus' Law: "given enough eyeballs, all bugs are 
 
 <p id="fn-24">24. Pound's role in the formation of the "Objectivist" core is discussed at greater length in both "[The Lives](http://theobjectivists.org/the-lives/)" and "[The Work](http://theobjectivists.org/the-work/)" sections of this site. <a href="#fnref-24">↩</a></p>
 
-<p id="fn-25">25. C.f. Pound's "I believe in technique as the test of a man's sincerity" in "A Retrospect (Credo)," first published in 1918 ([_Pavannes and Divisions_](https://books.google.com/books?id=iXMfAAAAMAAJ&pg=PA104#v=onepage&q=%22I%20believe%20in%20technique%20as%20the%20test%20of%20a%20man's%20sincerity%22&f=false), 103) and Zukofsky's assertion in his "Sincerity and Objectification" essay that it was Pound's poems which "possess objectification to a most constant degree." <a href="#fnref-25">↩</a></p>
+<p id="fn-25">25. C.f. Pound's "I believe in technique as the test of a man's sincerity" in "A Retrospect (Credo)," first published in 1918 (<a href="https://books.google.com/books?id=iXMfAAAAMAAJ&pg=PA104#v=onepage&q=%22I%20believe%20in%20technique%20as%20the%20test%20of%20a%20man's%20sincerity%22&f=false"><em>Pavannes and Divisions</em></a>, 103) and Zukofsky's assertion in his "Sincerity and Objectification" essay that it was Pound's poems which "possess objectification to a most constant degree." <a href="#fnref-25">↩</a></p>
 
 <p id="fn-26">26. _The Correspondence of William Carlos Williams and Louis Zukofsky_, 11. <a href="#fnref-26">↩</a></p>
 
