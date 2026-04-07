@@ -97,12 +97,12 @@ h1, h2 {
 }
 
 a {
-	color: var(--color-red-error);
-	text-decoration: none;
+	color: var(--color-blue-gray-dark);
+	text-decoration: underline;
 }
 
 a:hover {
-	color: var(--color-dark-gray);
+	color: var(--color-blue-gray-darkest);
 }
 
 /* Typography utilities */
@@ -332,9 +332,8 @@ blockquote p:first-child {
 	box-sizing: border-box;
 }
 
-#nav li a:hover,
-#nav li.current_page_item > a:hover {
-	background: var(--color-medium-light-gray);
+#nav li:hover {
+	filter: brightness(0.8);
 }
 
 #nav li.current_page_item > a,
@@ -399,6 +398,10 @@ blockquote p:first-child {
 	padding: 0 var(--spacing-xxl);
 	font-size: 1rem;
 	line-height: 1.5;
+}
+
+.entry-content p {
+	max-width: var(--max-content-width);
 }
 
 .text,
@@ -498,12 +501,12 @@ li.scholarship li,
 }
 
 .darkred,
-li.material,
+li.materials,
 .page-materials h1.entry-title {
 	background: linear-gradient(to bottom right, var(--color-brown-dark) 0%, var(--color-brown-darker) 100%);
 }
 
-li.material li,
+li.materials li,
 .materials .ch-info .ch-info-back {
 	background: var(--color-brown-light);
 }
@@ -515,7 +518,7 @@ body.home header.header {
 /* Section Headers */
 .section_head {
 	width: auto;
-	margin: 0 -3rem;
+	margin: 2rem -3rem;
 	padding: 0 3rem;
 	box-shadow: var(--shadow-section);
 	text-align: center;
@@ -602,7 +605,7 @@ h1.entry-title {
 	height: 0;
 	padding-bottom: 100%;
 	border-radius: 50%;
-	font-family: "brandon-grotesque", Arial, sans-serif;
+	font-family: var(--font-sans);
 	-webkit-transition: var(--transition-standard);
 	transition: var(--transition-standard);
 	-webkit-transform-style: preserve-3d;
@@ -708,7 +711,7 @@ h1.entry-title {
 
 [class^="bk-img-"] {
 	background-position: center center;
-	background-size: 104%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-color: #aaa;
 }
@@ -737,6 +740,11 @@ h1.entry-title {
 .sc-img-6 { background-image: url('../images/Rak_sc.jpg') !important; }
 .sc-img-7 { background-image: url('../images/Bun_sc.jpg') !important; }
 .sc-img-8 { background-image: url('../images/Obj_sc.jpg') !important; }
+
+/* Adjust scholarship images for proper scaling */
+.sc-img-2 { background-size: 120% !important; } /* Reznikoff */
+.sc-img-3 { background-size: 125% !important; } /* Oppen */
+.sc-img-5 { background-size: 85% !important; } /* Williams */
 
 [class^="ma-img-"] {
 	background-position: center center;
@@ -768,8 +776,7 @@ padding: 1rem 2rem;
 }  
 
 a.read-more:hover {
-	background: var(--color-medium-gray);
-	color: var(--color-dark-gray);
+	filter: brightness(0.85);
 }
 
 /* Section-specific read-more button colors */
@@ -778,8 +785,7 @@ a.read-more:hover {
 }
 
 .poets a.read-more:hover {
-	background: var(--color-green-light);
-	color: var(--color-white);
+	filter: brightness(0.85);
 }
 
 .poetry a.read-more {
@@ -787,8 +793,7 @@ a.read-more:hover {
 }
 
 .poetry a.read-more:hover {
-	background: var(--color-blue-gray-darkest);
-	color: var(--color-white);
+	filter: brightness(0.85);
 }
 
 .scholarship a.read-more {
@@ -796,17 +801,15 @@ a.read-more:hover {
 }
 
 .scholarship a.read-more:hover {
-	background: var(--color-coral-dark);
-	color: var(--color-white);
+	filter: brightness(0.85);
 }
 
-.material a.read-more {
+.materials a.read-more {
 	background: var(--color-brown-dark);
 }
 
-.material a.read-more:hover {
-	background: var(--color-brown-darker);
-	color: var(--color-white);
+.materials a.read-more:hover {
+	filter: brightness(0.85);
 }
 
 /* Footnotes */
@@ -858,7 +861,7 @@ figure img {
 }
 
 figcaption {
-	font-family: "brandon-grotesque", sans-serif;
+	font-family: var(--font-sans);
 	font-size: 0.9rem;
 	margin-top: 0.5rem;
 	color: #666;
@@ -880,7 +883,7 @@ figcaption {
 }
 
 p.wp-caption-text {
-	font-family: "brandon-grotesque", sans-serif;
+	font-family: var(--font-sans);
 	font-size: 1rem;
 	margin: 0;
 	text-indent: 0;
@@ -1128,10 +1131,6 @@ div.alignright img {
 
 #nav li.current_page_item, #nav li.current_page_ancestor {
 	background: var(--color-medium-dark-gray);
-}
-
-#nav li:hover {
-	background: var(--color-medium-light-gray);
 }
 
 #nav ul:after {

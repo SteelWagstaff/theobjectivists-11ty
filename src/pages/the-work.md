@@ -72,7 +72,7 @@ These letters also help establish Zukofsky's editorial independence from his men
 > 
 > I can not GODDDDDAMMMMIT find mckenzie's LIST of just men but am asking him to send it to you.
 > 
-> It mentioned <I think> McAlmon, Johns that edits Paganny, you, norman macleod at j'en oublie, several I did not know but all whom I cd. verify by ref/ to current periodicals seemed good.
+> It mentioned \<I think> McAlmon, Johns that edits Paganny, you, norman macleod at j'en oublie, several I did not know but all whom I cd. verify by ref/ to current periodicals seemed good.
 > 
 > (he also mentioned Dunning, not knowing that Cheever was ten years older than I am and already dead (in physical sense).
 > 
@@ -106,7 +106,12 @@ About the only praise for the issue came from Ezra Pound, who sent a postcard cl
 
 Shortly after the appearance of his "OBJECTIVISTS" 1931 issue of _Poetry_, had Zukofsky begun to work on selecting and editing a larger collection of work to be published as an "Objectivists" anthology. Zukofsky appears to have believed, based on his correspondence with Ezra Pound, that the finished anthology would be published by Samuel Putnam, the Paris-based publisher of the magazine _The New Review_.<sup id="fnref-19"><a href="#fn-19">[19]</a></sup> The May-June-July 1931 issue of _The New Review_, which had been titled "The New Objectivism," had included two sections of Zukofsky's _"A"_ as well as a lengthy editorial entitled "Black Arrow" in which Putnam praised the "Objectivists" issue of _Poetry_ and described Zukofsky as "the best, the most important critic that I am able to think of in America."<sup id="fnref-20"><a href="#fn-20">[20]</a></sup> In October 1931, Zukofsky finished his edits for the anthology and sent a manuscript to Putnam, and the fourth issue of _The New Review_ (published in Winter 1931-1932) included an announcement for _An "Objectivist Anthology"_ to be edited by Zukofsky and published in Spring 1932 \[shown at right\].
 
-\[caption id="attachment\_1827" align="alignright" width="294"\][![List of forthcoming publications from The New Review Editions](http://theobjectivists.org/wp-content/uploads/sites/14/2018/01/new_review_objectivist_anthology-294x450.jpg)](http://theobjectivists.org/wp-content/uploads/sites/14/2018/01/new_review_objectivist_anthology.jpg) An announcement of forthcoming publications from The New Review Editions published in the Winter 1931-1932 issue of _The New Review_. The first title listed is Zukofsky's _An "Objectivist Anthology."_ Putnam ultimately did not publish the book, which was brought out instead by To, Publishers.\[/caption\]
+<figure class="alignright">
+  <a href="http://theobjectivists.org/wp-content/uploads/sites/14/2018/01/new_review_objectivist_anthology.jpg">
+    <img src="http://theobjectivists.org/wp-content/uploads/sites/14/2018/01/new_review_objectivist_anthology-294x450.jpg" alt="List of forthcoming publications from The New Review Editions">
+  </a>
+  <figcaption>An announcement of forthcoming publications from The New Review Editions published in the Winter 1931-1932 issue of _The New Review_. The first title listed is Zukofsky's _An "Objectivist Anthology."_ Putnam ultimately did not publish the book, which was brought out instead by To, Publishers.</figcaption>
+</figure>
 
 Unfortunately for Zukofsky, he had done the work entirely on speculation, without securing either a contract or payment for the anthology from Putnam, and late in 1931, Putnam began to ghost Zukofsky, leaving his letters unanswered. As the months ticked by without further word from Putnam, Zukofsky became increasingly anxious that Putnam would not publish the anthology. In February 1932, Zukofsky's worst fears were confirmed when he received Putnam’s rejection.<sup id="fnref-21"><a href="#fn-21">[21]</a></sup> In May 1932, Pound informed Zukofsky that his association with _The New Review_ had been ended: "Sam Puttenheim is drunk half the time/ over works the other two thirds / worries I shd/ think about his health (which is the worst known to man) the remaining fifth/ His last issue New Rev. inexcusable on any other base/ass. Sorry!///he'za sympathetic kuss/ Have said faretheewell to his orgum."<sup id="fnref-22"><a href="#fn-22">[22]</a></sup> After his publishing plans with Putnam collapsed, Zukofsky persuaded the Oppens to bring out the anthology, and in August 1932 the Oppen's oversaw its printing in Dijon, France as To, Publishers' final publication.
 
