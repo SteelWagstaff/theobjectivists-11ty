@@ -86,12 +86,13 @@ h1, h2 {
 }
 
 a {
-	color: #c33;
-	text-decoration: none;
+	color: #536270;
+	text-decoration: underline;
 }
 
 a:hover {
-	color: #333;
+	color: #424e59;
+	text-decoration: underline;
 }
 
 #container {
