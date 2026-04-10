@@ -108,13 +108,12 @@ a:hover {
 
 /* Footer links: better contrast on dark background */
 footer#footer a {
-	color: var(--color-coral-light);
+	color: var(--color-white);
 	text-decoration: underline;
 }
 
 footer#footer a:hover {
-	color: white;
-	text-decoration: underline;
+	color: var(--color-near-white);
 }
 
 /* Typography utilities */
