@@ -522,6 +522,28 @@ li.materials li,
 	background: var(--color-brown-light);
 }
 
+/* Materials featured image */
+.materials-featured {
+	float: right;
+	margin: 0 0 2rem 2rem;
+	width: 200px;
+}
+
+.materials-featured .ch-item {
+	width: 100%;
+	height: 300px;
+	border-radius: 4px;
+	overflow: hidden;
+	box-shadow: var(--shadow-deep);
+}
+
+.materials-featured .ch-info-front {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
 body.home header.header {
 	display: none;
 }
@@ -704,7 +726,7 @@ h1.entry-title {
 	border-radius: 5%; /* percentage */
 }
 
-[class^="ch-img-"] {
+[class^="ch-img-"], [class^="bk-img-"], [class^="sc-img-"], [class^="ma-img-"] {
 	background-position: center center;
 	background-size: 104%;
 	background-repeat: no-repeat;
@@ -719,14 +741,6 @@ h1.entry-title {
 .ch-img-6 { background-image: url('../images/rakosi.jpg') !important; }
 .ch-img-7 { background-image: url('../images/Bun_sq.jpg') !important; }
 
-
-[class^="bk-img-"] {
-	background-position: center center;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-color: #aaa;
-}
-
 .bk-img-1 { background-image: url('../images/Zuk_bk.jpg') !important; }
 .bk-img-2 { background-image: url('../images/Reznikoff_poems1.jpg') !important; }
 .bk-img-3 { background-image: url('../images/Oppen_New_Collected1.jpg') !important; }
@@ -736,13 +750,6 @@ h1.entry-title {
 .bk-img-7 { background-image: url('../images/bunting_complete_bloodaxe.jpg') !important; }
 .bk-img-8 { background-image: url('../images/feb_1931.jpg') !important; }
 
-[class^="sc-img-"] {
-	background-position: center center;
-	background-size: 104%;
-	background-repeat: no-repeat;
-	background-color: #aaa;
-}
-
 .sc-img-1 { background-image: url('../images/Zuk_sc.jpg') !important; }
 .sc-img-2 { background-image: url('../images/Rezi_sc.jpg') !important; }
 .sc-img-3 { background-image: url('../images/Opp_sc.jpg') !important; }
@@ -751,18 +758,6 @@ h1.entry-title {
 .sc-img-6 { background-image: url('../images/Rak_sc.jpg') !important; }
 .sc-img-7 { background-image: url('../images/Bun_sc.jpg') !important; }
 .sc-img-8 { background-image: url('../images/Obj_sc.jpg') !important; }
-
-/* Adjust scholarship images for proper scaling */
-.sc-img-2 { background-size: 120% !important; } /* Reznikoff */
-.sc-img-3 { background-size: 125% !important; } /* Oppen */
-.sc-img-5 { background-size: 85% !important; } /* Williams */
-
-[class^="ma-img-"] {
-	background-position: center center;
-	background-size: 104%;
-	background-repeat: no-repeat;
-	background-color: #aaa;
-}
 
 .ma-img-1 { background-image: url('../images/Zuk_ma.jpg') !important; }
 .ma-img-2 { background-image: url('../images/Rezi_ma.jpg') !important; }
