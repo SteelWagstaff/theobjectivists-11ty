@@ -1,0 +1,5 @@
+/the-lives/*  /pages/the-lives/:splat  301
+/the-materials/*  /pages/the-materials/:splat  301
+/the-work/*  /pages/the-work/:splat  301
+/the-scholarship/*  /pages/the-scholarship/:splat  301
+/*  /pages/:splat  200
