@@ -1,26 +1,6 @@
 # The Objectivists 11ty Site
 
-A static site migration of theobjectivists.org from WordPress to 11ty, deployed on Netlify.
-
-## Project Status
-
-✅ **MIGRATION COMPLETE!**
-
-**Build Status:** Successfully builds **36 pages + 222 assets**
-
-- ✅ 11ty configuration with collections for people, materials, scholarship, and writing
-- ✅ Nunjucks layouts: base, page, person, materials
-- ✅ Directory structure organized by content type
-- ✅ Original WordPress CSS integrated
-- ✅ Asset pipeline configured (PDFs, images, audio, video)
-- ✅ Netlify deployment configuration with URL redirects
-- ✅ All 36 content pages migrated with proper front matter
-  - 7 people biographies
-  - 7 materials collections
-  - 7 scholarship pages
-  - 7 writing pages  
-  - 7 main pages
-  - 1 home page
+A static site migration of theobjectivists.org from WordPress to 11ty, deployed on Cloudflare.
 
 ## Project Structure
 
@@ -145,16 +125,6 @@ permalink: /pages/slug/
 - **Galleries**: WordPress shortcodes → HTML/Markdown
 - **Internal links**: Update to new URL structure
 - **Zotero citations**: May need manual formatting
-
-## Deployment to Netlify
-
-1. Push to GitHub repository
-2. Connect repository to Netlify
-3. Build settings:
-   - Build command: `npm run build`
-   - Publish directory: `_site`
-4. Add custom domain: theobjectivists.org
-5. Test redirects from old WordPress URLs
 
 ## Resources
 
